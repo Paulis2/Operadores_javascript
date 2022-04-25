@@ -32,7 +32,49 @@
         document.write ("División = " + división + "<br/)");
         document.write("Y su resto " + resto_división + "<br/>");
         document.write ("La variable varios = " + varios + "<br/>");
-        Document.write ("3 elevado al cubo son = " + (3*3));
-        </script>s
+        document.write ("3 elevado al cubo son = " + (3*3));
+
+        //Operadores Lógicos 
+
+        /*Ejemplos de 
+        operador AND*/
+        console.log(true && true);
+        console.log(true && flase);
+
+        /*Ejmeplos operador OR*/ 
+        console.log(1 || 0);
+        cosole.log(false || true);
+
+        /*Ejemplos operador NOT*/
+        console.log(!true);
+        console.log(!false);
+
+        //Operadores de comparación
+
+        let var1 = 5, var2 = 10, var3 = "Hola";
+
+        console.log(5 == var1 && 2 == var2);
+        console.log("5" == var1);
+        console.log(var1 !=10);
+        console.log(var3 == "Hola");
+        console.log(var2 > var1);
+        console.log(var2 <= 10);
+
+        //Operadores condicionales 
+        let nota, resultados
+        nota = promt('Intoduce tu nota del examen (10-50)');
+        resultado = (nota >= 30) ? 'APROBADO': 'REPROBADO';
+        alert('Has ' + resultado + ' el examen!!');
+
+        //operadores de asignación 
+        let x = 10;
+        x += 5;
+        let y = 20;
+        y -= 10;
+        let a = 10;
+        a *= 10;
+        let frase = "Feliz fin de";
+        frase += "semana"; 
+        </script>
 </body>
 </html>
